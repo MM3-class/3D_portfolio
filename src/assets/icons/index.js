@@ -1,10 +1,10 @@
 import css from './css.svg'
-import express from './express.svg'
+import bootstrap from './bootstrap.svg'
 import git from './git.svg'
 import github from './github.svg'
 import html from './html.svg'
 import javascript from './javascript.svg'
-import mongodb from './mongodb.svg'
+import strapi from './strapi.svg'
 import motion from './motion.svg'
 import mui from './mui.svg'
 import nextjs from './nextjs.svg'
@@ -29,12 +29,12 @@ import soundoff from './soundoff.png'
 
 export {
     css,
-    express,
+    bootstrap,
     git,
     github,
     html,
     javascript,
-    mongodb,
+    strapi,
     motion,
     mui,
     nextjs,

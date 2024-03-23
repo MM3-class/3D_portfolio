@@ -1,16 +1,16 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { meta, shopify, prd, upwork } from "../assets/images";
 import {
     car,
     contact,
     css,
     estate,
-    express,
+    bootstrap,
     git,
     github,
     html,
     javascript,
     linkedin,
-    mongodb,
+    strapi,
     motion,
     mui,
     nextjs,
@@ -33,8 +33,8 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: express,
-        name: "Express",
+        imageUrl: bootstrap,
+        name: "bootstrap",
         type: "Backend",
     },
     {
@@ -58,9 +58,9 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
+        imageUrl: strapi,
+        name: "Strapi",
+        type: "Backend",
     },
     {
         imageUrl: motion,
@@ -111,11 +111,11 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        title: "Web Developer",
+        company_name: "Upwork Freelancer",
+        icon: upwork,
+        iconBg: "#fbc3bc",
+        date: "Sep 2021 - Feb 2023",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -124,44 +124,25 @@ export const experiences = [
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        title: "React.js Developer",
+        company_name: "PRD Oil & Gas",
+        icon: prd,
+        iconBg: "#accbe1",
+        date: "Feb 2023 - Mar 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Designing a presentation involves crafting a series of interactive slides using React components, incorporating Tailwind CSS for modern styling, and implementing GSAP animations to seamlessly enhance transitions and engage users with dynamic visual elements, ultimately creating an immersive and visually appealing experience.",
         ],
     },
     {
         title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        company_name: "Upwork Freelancer",
+        icon: upwork,
         iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        date: "Mar 2024 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developed a dynamic e-commerce platform using React and Redux, featuring real-time stock management, coupon discount calculations, shipping charge estimations, and a smooth user interface. Implemented React Skeleton for seamless loading, Redux Thunk for asynchronous operations, Axios for API integration, and React Toastify for user notifications. The project also utilizes React Persist for maintaining state across sessions. This comprehensive solution showcases advanced front-end development skills, delivering an engaging and responsive online shopping experience.",
         ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+    }
 ];
 
 export const socialLinks = [
@@ -173,12 +154,12 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/mohamed-hassaan3',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/mohamed-hassaan3',
     }
 ];
 

@@ -2,6 +2,7 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
+import { generateUUID } from "three/src/math/MathUtils";
 
 import { CTA } from "../components";
 import { experiences, skills } from "../constants";
@@ -15,14 +16,14 @@ const About = () => {
         Hello, I'm{" "}
         <span className='blue-gradient_text font-semibold drop-shadow'>
           {" "}
-          Adrian
+          MOHAMED
         </span>{" "}
         👋
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer based in Croatia, specializing in technical
+          Web Developer based in Dubai, specializing in technical
           education through hands-on learning and building applications.
         </p>
       </div>
@@ -32,7 +33,7 @@ const About = () => {
 
         <div className='mt-16 flex flex-wrap gap-12'>
           {skills.map((skill) => (
-            <div className='block-container w-20 h-20' key={skill.name}>
+            <div className='block-container w-20 h-20' key={generateUUID()}>
               <div className='btn-back rounded-xl' />
               <div className='btn-front rounded-xl flex justify-center items-center'>
                 <img
@@ -57,9 +58,9 @@ const About = () => {
 
         <div className='mt-12 flex'>
           <VerticalTimeline>
-            {experiences.map((experience, index) => (
+            {experiences.map((experience) => (
               <VerticalTimelineElement
-                key={experience.company_name}
+                key={generateUUID()}
                 date={experience.date}
                 iconStyle={{ background: experience.iconBg }}
                 icon={
