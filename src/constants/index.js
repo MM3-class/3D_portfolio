@@ -140,7 +140,7 @@ export const experiences = [
         iconBg: "#b7e4c7",
         date: "Mar 2024 - Present",
         points: [
-            "Developed a dynamic e-commerce platform using React and Redux, featuring real-time stock management, coupon discount calculations, shipping charge estimations, and a smooth user interface. Implemented React Skeleton for seamless loading, Redux Thunk for asynchronous operations, Axios for API integration, and React Toastify for user notifications. The project also utilizes React Persist for maintaining state across sessions. This comprehensive solution showcases advanced front-end development skills, delivering an engaging and responsive online shopping experience.",
+            "Experienced Web Developer React proficient in HTML, CSS, Bootstrap, Tailwind CSS, and Sass for design. Specializing in dynamic web development, I bring expertise in JavaScript with React.js/Redux Toolkit/Thunk and Next.js. Additionally, I am well-versed in unit testing with Jest, CI/CD pipeline implementation, and have hands-on experience with Strapi CMS.",
         ],
     }
 ];
@@ -167,23 +167,23 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Jacky E-Commerce',
+        description: 'Developed a dynamic e-commerce platform using React and Redux, featuring real-time stock management, coupon discount calculations, shipping charge estimations, and a smooth user interface.',
+        link: 'https://github.com/mohamed-hassaan3/commerce-jacky',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Landing page Real-Estate',
+        description: 'Designing a presentation involves crafting a series of interactive slides using React components, incorporating Tailwind CSS for modern styling, and implementing GSAP animations to seamlessly enhance transitions and engage users.',
+        link: 'https://github.com/mohamed-hassaan3/oia-properties',
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
         name: 'Car Finding App',
         description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        link: 'https://github.com/mohamed-hassaan3/Future-Vehicle',
     },
     {
         iconUrl: snapgram,
@@ -197,7 +197,7 @@ export const projects = [
         theme: 'btn-back-black',
         name: 'Real-Estate Application',
         description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        link: 'https://github.com/mohamed-hassaan3/kiblis-real-estate',
     },
     {
         iconUrl: summiz,
