@@ -1,4 +1,4 @@
-import { meta, shopify, prd, upwork } from "../assets/images";
+import { prd, upwork } from "../assets/images";
 import {
     car,
     contact,
@@ -177,20 +177,20 @@ export const projects = [
         name: 'Landing page Real-Estate',
         description: 'Designing a presentation involves crafting a series of interactive slides using React components, incorporating Tailwind CSS for modern styling, and implementing GSAP animations to seamlessly enhance transitions and engage users.',
         link: 'https://github.com/mohamed-hassaan3/oia-properties',
-    },
+    }/* ,
     {
         iconUrl: car,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
+        name: 'automotive landing pages',
         description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
         link: 'https://github.com/mohamed-hassaan3/Future-Vehicle',
-    },
+    } */,
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Management Tasks',
+        description: 'Build a simple React App included Router and Validation User Signing (URL).',
+        link: 'https://github.com/mohamed-hassaan3/management-tasks',
     },
     {
         iconUrl: estate,
@@ -198,12 +198,12 @@ export const projects = [
         name: 'Real-Estate Application',
         description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
         link: 'https://github.com/mohamed-hassaan3/kiblis-real-estate',
-    },
+    }/* ,
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
         name: 'AI Summarizer Application',
         description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
+        link: 'https://github.com/mohamed-hassaan3/management-tasks',
+    } */
 ];
